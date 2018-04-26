@@ -26,6 +26,13 @@ private slots:
     void on_pushButton_5_clicked();
     void on_pushButton_6_clicked();
 
+    void on_wrongButton_1_clicked();
+    void on_wrongButton_2_clicked();
+    void on_wrongButton_3_clicked();
+    void on_wrongButton_4_clicked();
+    void on_wrongButton_5_clicked();
+    void on_wrongButton_6_clicked();
+
 
 private:
     Ui::MainWindow *ui;
