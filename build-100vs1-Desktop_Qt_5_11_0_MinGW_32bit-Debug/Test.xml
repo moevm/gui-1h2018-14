@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <answer_1_1 point = "27" word = "ВЗАИМОПОНИМАНИЕ"></answer_1_1>
+    <answer_1_2 point = "20" word = "ОРГАНИЗОВАННОСТЬ"></answer_1_2>
+    <answer_1_3 point = "14" word = "ДОВЕРИЕ"></answer_1_3>
+    <answer_1_4 point = "11" word = "ПОДДЕРЖКА"></answer_1_4>
+    <answer_1_5 point = "9" word = "ДИСЦИПЛИНА"></answer_1_5>
+    <answer_1_6 point = "7" word = "ЦЕЛЕУСТРЕМЛЁННОСТЬ"></answer_1_6>
+	
+	<answer_2_1 point = "27" word = "2ВЗАИМОПОНИМАНИЕ"></answer_2_1>
+    <answer_2_2 point = "20" word = "2ОРГАНИЗОВАННОСТЬ"></answer_2_2>
+    <answer_2_3 point = "14" word = "2ДОВЕРИЕ"></answer_2_3>
+    <answer_2_4 point = "11" word = "2ПОДДЕРЖКА"></answer_2_4>
+    <answer_2_5 point = "9" word = "2ДИСЦИПЛИНА"></answer_2_5>
+    <answer_2_6 point = "7" word = "2ЦЕЛЕУСТРЕМЛЁННОСТЬ"></answer_2_6>
+	
+	<answer_3_1 point = "27" word = "3ВЗАИМОПОНИМАНИЕ"></answer_3_1>
+    <answer_3_2 point = "20" word = "3ОРГАНИЗОВАННОСТЬ"></answer_3_2>
+    <answer_3_3 point = "14" word = "3ДОВЕРИЕ"></answer_3_3>
+    <answer_3_4 point = "11" word = "3ПОДДЕРЖКА"></answer_3_4>
+    <answer_3_5 point = "9" word = "3ДИСЦИПЛИНА"></answer_3_5>
+    <answer_3_6 point = "7" word = "3ЦЕЛЕУСТРЕМЛЁННОСТЬ"></answer_3_6>
+	
+	<answer_4_1 point = "27" word = "4ВЗАИМОПОНИМАНИЕ"></answer_4_1>
+    <answer_4_2 point = "20" word = "4ОРГАНИЗОВАННОСТЬ"></answer_4_2>
+    <answer_4_3 point = "14" word = "4ДОВЕРИЕ"></answer_4_3>
+    <answer_4_4 point = "11" word = "4ПОДДЕРЖКА"></answer_4_4>
+    <answer_4_5 point = "9" word = "4ДИСЦИПЛИНА"></answer_4_5>
+    <answer_4_6 point = "7" word = "4ЦЕЛЕУСТРЕМЛЁННОСТЬ"></answer_4_6>
+</resources>

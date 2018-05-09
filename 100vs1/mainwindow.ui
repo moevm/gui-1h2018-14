@@ -69,13 +69,67 @@
      <enum>QTabWidget::East</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="start_page">
+     <attribute name="title">
+      <string>Выбор игры</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Считать файл</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditRead">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>60</y>
+        <width>301</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="dialogReadButton">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>40</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Выбрать</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="readButton">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>80</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Считать</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="simpleGame_2">
      <attribute name="title">
       <string>Простая игра</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="pushButton_1_4">
       <property name="geometry">
        <rect>
         <x>191</x>
@@ -99,7 +153,7 @@
        <string>4</string>
       </property>
      </widget>
-     <widget class="QLabel" name="question_5">
+     <widget class="QLabel" name="question_1_5">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -117,11 +171,6 @@
         <height>31</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
@@ -138,7 +187,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="question_4">
+     <widget class="QLabel" name="question_1_4">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -156,11 +205,6 @@
         <height>31</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
@@ -177,7 +221,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_1">
+     <widget class="QPushButton" name="pushButton_1_1">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -201,7 +245,7 @@
        <string>1</string>
       </property>
      </widget>
-     <widget class="QLabel" name="question_1">
+     <widget class="QLabel" name="question_1_1">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -219,11 +263,6 @@
         <height>31</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
@@ -240,7 +279,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="pushButton_1_5">
       <property name="geometry">
        <rect>
         <x>191</x>
@@ -264,7 +303,7 @@
        <string>5</string>
       </property>
      </widget>
-     <widget class="QLabel" name="question_2">
+     <widget class="QLabel" name="question_1_2">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -282,11 +321,6 @@
         <height>31</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
@@ -303,7 +337,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="pushButton_1_6">
       <property name="geometry">
        <rect>
         <x>191</x>
@@ -327,7 +361,7 @@
        <string>6</string>
       </property>
      </widget>
-     <widget class="QLabel" name="question_3">
+     <widget class="QLabel" name="question_1_3">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -345,11 +379,6 @@
         <height>31</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
@@ -366,7 +395,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="question_6">
+     <widget class="QLabel" name="question_1_6">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -384,11 +413,6 @@
         <height>31</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
       <property name="mouseTracking">
        <bool>true</bool>
       </property>
@@ -405,7 +429,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="pushButton_1_2">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -429,7 +453,7 @@
        <string>2</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="pushButton_1_3">
       <property name="geometry">
        <rect>
         <x>190</x>
@@ -453,7 +477,7 @@
        <string>3</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="wrongButton_1">
+     <widget class="QPushButton" name="wrongButton_1_1">
       <property name="geometry">
        <rect>
         <x>70</x>
@@ -466,7 +490,7 @@
        <string>крестик</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="wrongButton_2">
+     <widget class="QPushButton" name="wrongButton_1_2">
       <property name="geometry">
        <rect>
         <x>70</x>
@@ -479,7 +503,7 @@
        <string>крестик</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="wrongButton_3">
+     <widget class="QPushButton" name="wrongButton_1_3">
       <property name="geometry">
        <rect>
         <x>70</x>
@@ -492,7 +516,7 @@
        <string>крестик</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="wrongButton_4">
+     <widget class="QPushButton" name="wrongButton_1_4">
       <property name="geometry">
        <rect>
         <x>500</x>
@@ -505,7 +529,7 @@
        <string>крестик</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="wrongButton_5">
+     <widget class="QPushButton" name="wrongButton_1_5">
       <property name="geometry">
        <rect>
         <x>500</x>
@@ -518,7 +542,7 @@
        <string>крестик</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="wrongButton_6">
+     <widget class="QPushButton" name="wrongButton_1_6">
       <property name="geometry">
        <rect>
         <x>500</x>
@@ -531,26 +555,26 @@
        <string>крестик</string>
       </property>
      </widget>
-     <zorder>question_6</zorder>
-     <zorder>question_4</zorder>
-     <zorder>question_1</zorder>
-     <zorder>pushButton_4</zorder>
-     <zorder>question_5</zorder>
-     <zorder>pushButton_1</zorder>
-     <zorder>pushButton_5</zorder>
-     <zorder>question_2</zorder>
-     <zorder>pushButton_6</zorder>
-     <zorder>question_3</zorder>
-     <zorder>pushButton_2</zorder>
-     <zorder>pushButton_3</zorder>
-     <zorder>wrongButton_1</zorder>
-     <zorder>wrongButton_2</zorder>
-     <zorder>wrongButton_3</zorder>
-     <zorder>wrongButton_4</zorder>
-     <zorder>wrongButton_5</zorder>
-     <zorder>wrongButton_6</zorder>
+     <zorder>question_1_6</zorder>
+     <zorder>question_1_4</zorder>
+     <zorder>question_1_1</zorder>
+     <zorder>pushButton_1_4</zorder>
+     <zorder>question_1_5</zorder>
+     <zorder>pushButton_1_1</zorder>
+     <zorder>pushButton_1_5</zorder>
+     <zorder>question_1_2</zorder>
+     <zorder>pushButton_1_6</zorder>
+     <zorder>question_1_3</zorder>
+     <zorder>pushButton_1_2</zorder>
+     <zorder>pushButton_1_3</zorder>
+     <zorder>wrongButton_1_1</zorder>
+     <zorder>wrongButton_1_2</zorder>
+     <zorder>wrongButton_1_3</zorder>
+     <zorder>wrongButton_1_4</zorder>
+     <zorder>wrongButton_1_5</zorder>
+     <zorder>wrongButton_1_6</zorder>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="dubleGame_2">
      <property name="enabled">
       <bool>true</bool>
      </property>

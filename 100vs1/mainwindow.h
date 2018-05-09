@@ -2,6 +2,17 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFileDialog>
+#include <QXmlStreamWriter>
+#include <QXmlStreamReader>
+#include <QXmlStreamAttribute>
+#include <QMessageBox>
+#include <QFile>
+
+#include <QDebug>
+#include <QString>
+
+#include <iostream>
 
 namespace Ui {
 class MainWindow;
@@ -15,24 +26,25 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-    void setName(const QString &name);
-    QString name() const;
-
 private slots:
-    void on_pushButton_1_clicked();
-    void on_pushButton_2_clicked();
-    void on_pushButton_3_clicked();
-    void on_pushButton_4_clicked();
-    void on_pushButton_5_clicked();
-    void on_pushButton_6_clicked();
+    /* Слоты обработчиков кнопок, работающих с чтением из файла */
+    void on_readButton_clicked();
+    void on_dialogReadButton_clicked();
 
-    void on_wrongButton_1_clicked();
-    void on_wrongButton_2_clicked();
-    void on_wrongButton_3_clicked();
-    void on_wrongButton_4_clicked();
-    void on_wrongButton_5_clicked();
-    void on_wrongButton_6_clicked();
 
+    void on_pushButton_1_1_clicked();
+    void on_pushButton_1_2_clicked();
+    void on_pushButton_1_3_clicked();
+    void on_pushButton_1_4_clicked();
+    void on_pushButton_1_5_clicked();
+    void on_pushButton_1_6_clicked();
+
+    void on_wrongButton_1_1_clicked();
+    void on_wrongButton_1_2_clicked();
+    void on_wrongButton_1_3_clicked();
+    void on_wrongButton_1_4_clicked();
+    void on_wrongButton_1_5_clicked();
+    void on_wrongButton_1_6_clicked();
 
 private:
     Ui::MainWindow *ui;
