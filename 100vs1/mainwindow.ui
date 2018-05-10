@@ -478,6 +478,9 @@
       </property>
      </widget>
      <widget class="QPushButton" name="wrongButton_1_1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
         <x>70</x>
@@ -510,6 +513,9 @@
       <property name="autoExclusive">
        <bool>false</bool>
       </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
      </widget>
      <widget class="QPushButton" name="wrongButton_1_2">
       <property name="geometry">
@@ -539,6 +545,9 @@
        </size>
       </property>
       <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
        <bool>true</bool>
       </property>
      </widget>
@@ -572,6 +581,9 @@
       <property name="checkable">
        <bool>true</bool>
       </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
      </widget>
      <widget class="QPushButton" name="wrongButton_1_4">
       <property name="geometry">
@@ -601,6 +613,9 @@
        </size>
       </property>
       <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
        <bool>true</bool>
       </property>
      </widget>
@@ -634,6 +649,9 @@
       <property name="checkable">
        <bool>true</bool>
       </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
      </widget>
      <widget class="QPushButton" name="wrongButton_1_6">
       <property name="geometry">
@@ -663,6 +681,9 @@
        </size>
       </property>
       <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
        <bool>true</bool>
       </property>
      </widget>
