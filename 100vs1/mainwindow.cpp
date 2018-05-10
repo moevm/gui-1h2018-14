@@ -37,6 +37,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    QSound::play(":/100_intro.wav");
 }
 
 MainWindow::~MainWindow()
@@ -48,75 +49,69 @@ void MainWindow::on_pushButton_1_1_clicked()
 {
     auto printable = QStringLiteral("%1").arg( answer_1_1.point);
     ui->question_1_1->setText(answer_1_1.word + " " + printable);
+    QSound::play(":/100_line.wav");
     delete ui->pushButton_1_1;
 }
 void MainWindow::on_pushButton_1_2_clicked()
 {
     auto printable = QStringLiteral("%1").arg( answer_1_2.point);
     ui->question_1_2->setText(answer_1_2.word + " " + printable);
+    QSound::play(":/100_line.wav");
     delete ui->pushButton_1_2;
 }
 void MainWindow::on_pushButton_1_3_clicked()
 {
     auto printable = QStringLiteral("%1").arg( answer_1_3.point);
     ui->question_1_3->setText(answer_1_3.word + " " + printable);
+    QSound::play(":/100_line.wav");
     delete ui->pushButton_1_3;
 }
 void MainWindow::on_pushButton_1_4_clicked()
 {
     auto printable = QStringLiteral("%1").arg( answer_1_4.point);
     ui->question_1_4->setText(answer_1_4.word + " " + printable);
+    QSound::play(":/100_line.wav");
     delete ui->pushButton_1_4;
 }
 void MainWindow::on_pushButton_1_5_clicked()
 {
     auto printable = QStringLiteral("%1").arg( answer_1_5.point);
     ui->question_1_5->setText(answer_1_5.word + " " + printable);
+    QSound::play(":/100_line.wav");
     delete ui->pushButton_1_5;
 }
 void MainWindow::on_pushButton_1_6_clicked()
 {
     auto printable = QStringLiteral("%1").arg( answer_1_6.point);
     ui->question_1_6->setText(answer_1_6.word + " " + printable);
+    QSound::play(":/100_line.wav");
     delete ui->pushButton_1_6;
 }
 
 
 void MainWindow::on_wrongButton_1_1_clicked()
 {
-    QIcon myIcon("wrong_off.png");
-    ui->wrongButton_1_1->setIcon( myIcon );
-    ui->wrongButton_1_1->setText("красный \n крестик");
+    QSound::play(":/100_wrong.wav");
 }
 void MainWindow::on_wrongButton_1_2_clicked()
 {
-    QIcon myIcon("wrong_off.png");
-    ui->wrongButton_1_2->setIcon( myIcon );
-    ui->wrongButton_1_2->setText("красный \n крестик");
+    QSound::play(":/100_wrong.wav");
 }
 void MainWindow::on_wrongButton_1_3_clicked()
 {
-    QIcon myIcon("wrong_off.png");
-    ui->wrongButton_1_3->setIcon( myIcon );
-    ui->wrongButton_1_3->setText("красный \n крестик");
+    QSound::play(":/100_wrong.wav");
 }
 void MainWindow::on_wrongButton_1_4_clicked()
 {
-    QIcon myIcon("wrong_off.png");
-    ui->wrongButton_1_4->setIcon( myIcon );
-    ui->wrongButton_1_4->setText("красный \n крестик");
+    QSound::play(":/100_wrong.wav");
 }
 void MainWindow::on_wrongButton_1_5_clicked()
 {
-    QIcon myIcon("wrong_off.png");
-    ui->wrongButton_1_5->setIcon( myIcon );
-    ui->wrongButton_1_5->setText("красный \n крестик");
+    QSound::play(":/100_wrong.wav");
 }
 void MainWindow::on_wrongButton_1_6_clicked()
 {
-    QIcon myIcon("wrong_off.png");
-    ui->wrongButton_1_6->setIcon( myIcon );
-    ui->wrongButton_1_6->setText("красный \n крестик");
+    QSound::play(":/100_wrong.wav");
 }
 
 /* Метод, вызывающий диалоговое окно выбора файла для чтения данных*/

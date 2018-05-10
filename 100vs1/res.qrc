@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>100_double.wav</file>
+        <file>100_line.wav</file>
+        <file>100_naoborot.wav</file>
+        <file>100_simple.wav</file>
+        <file>100_triple.wav</file>
+        <file>100_wrong.wav</file>
+        <file>100_double.mp3</file>
+        <file>100_line.mp3</file>
+        <file>100_naoborot.mp3</file>
+        <file>100_simple.mp3</file>
+        <file>100_triple.mp3</file>
+        <file>100_wrong.mp3</file>
+        <file>100_intro.wav</file>
+        <file>images/wrong_off.png</file>
+        <file>images/wrong_on.png</file>
+    </qresource>
+</RCC>

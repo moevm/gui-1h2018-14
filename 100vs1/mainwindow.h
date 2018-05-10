@@ -8,6 +8,8 @@
 #include <QXmlStreamAttribute>
 #include <QMessageBox>
 #include <QFile>
+#include <QSound>
+#include <QIcon>
 
 #include <QDebug>
 #include <QString>
