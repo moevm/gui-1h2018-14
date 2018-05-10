@@ -88,6 +88,135 @@ void MainWindow::on_pushButton_1_6_clicked()
     delete ui->pushButton_1_6;
 }
 
+void MainWindow::on_pushButton_2_1_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_2_1.point);
+    ui->question_2_1->setText(answer_2_1.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_2_1;
+}
+void MainWindow::on_pushButton_2_2_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_2_2.point);
+    ui->question_2_2->setText(answer_2_2.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_2_2;
+}
+void MainWindow::on_pushButton_2_3_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_2_3.point);
+    ui->question_2_3->setText(answer_2_3.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_2_3;
+}
+void MainWindow::on_pushButton_2_4_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_2_4.point);
+    ui->question_2_4->setText(answer_2_4.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_2_4;
+}
+void MainWindow::on_pushButton_2_5_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_2_5.point);
+    ui->question_2_5->setText(answer_2_5.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_2_5;
+}
+void MainWindow::on_pushButton_2_6_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_2_6.point);
+    ui->question_2_6->setText(answer_2_6.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_2_6;
+}
+
+void MainWindow::on_pushButton_3_1_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_3_1.point);
+    ui->question_3_1->setText(answer_3_1.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_3_1;
+}
+void MainWindow::on_pushButton_3_2_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_3_2.point);
+    ui->question_3_2->setText(answer_3_2.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_3_2;
+}
+void MainWindow::on_pushButton_3_3_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_3_3.point);
+    ui->question_3_3->setText(answer_3_3.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_3_3;
+}
+void MainWindow::on_pushButton_3_4_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_3_4.point);
+    ui->question_3_4->setText(answer_3_4.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_3_4;
+}
+void MainWindow::on_pushButton_3_5_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_3_5.point);
+    ui->question_3_5->setText(answer_3_5.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_3_5;
+}
+void MainWindow::on_pushButton_3_6_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_3_6.point);
+    ui->question_3_6->setText(answer_3_6.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_3_6;
+}
+
+void MainWindow::on_pushButton_4_1_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_4_1.point);
+    ui->question_4_1->setText(answer_4_1.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_4_1;
+}
+void MainWindow::on_pushButton_4_2_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_4_2.point);
+    ui->question_4_2->setText(answer_4_2.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_4_2;
+}
+void MainWindow::on_pushButton_4_3_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_4_3.point);
+    ui->question_4_3->setText(answer_4_3.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_4_3;
+}
+void MainWindow::on_pushButton_4_4_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_4_4.point);
+    ui->question_4_4->setText(answer_4_4.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_4_4;
+}
+void MainWindow::on_pushButton_4_5_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_4_5.point);
+    ui->question_4_5->setText(answer_4_5.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_4_5;
+}
+void MainWindow::on_pushButton_4_6_clicked()
+{
+    auto printable = QStringLiteral("%1").arg( answer_4_6.point);
+    ui->question_4_6->setText(answer_4_6.word + " " + printable);
+    QSound::play(":/100_line.wav");
+    delete ui->pushButton_4_6;
+}
+
 
 void MainWindow::on_wrongButton_1_1_clicked()
 {
@@ -113,6 +242,82 @@ void MainWindow::on_wrongButton_1_6_clicked()
 {
     QSound::play(":/100_wrong.wav");
 }
+
+void MainWindow::on_wrongButton_2_1_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_2_2_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_2_3_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_2_4_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_2_5_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_2_6_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+
+void MainWindow::on_wrongButton_3_1_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_3_2_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_3_3_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_3_4_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_3_5_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_3_6_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+
+void MainWindow::on_wrongButton_4_1_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_4_2_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_4_3_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_4_4_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_4_5_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+void MainWindow::on_wrongButton_4_6_clicked()
+{
+    QSound::play(":/100_wrong.wav");
+}
+
 
 /* Метод, вызывающий диалоговое окно выбора файла для чтения данных*/
 void MainWindow::on_dialogReadButton_clicked()

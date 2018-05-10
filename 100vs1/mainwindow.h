@@ -40,7 +40,6 @@ private slots:
     void on_pushButton_1_4_clicked();
     void on_pushButton_1_5_clicked();
     void on_pushButton_1_6_clicked();
-
     void on_wrongButton_1_1_clicked();
     void on_wrongButton_1_2_clicked();
     void on_wrongButton_1_3_clicked();
@@ -48,6 +47,44 @@ private slots:
     void on_wrongButton_1_5_clicked();
     void on_wrongButton_1_6_clicked();
 
+    void on_pushButton_2_1_clicked();
+    void on_pushButton_2_2_clicked();
+    void on_pushButton_2_3_clicked();
+    void on_pushButton_2_4_clicked();
+    void on_pushButton_2_5_clicked();
+    void on_pushButton_2_6_clicked();
+    void on_wrongButton_2_1_clicked();
+    void on_wrongButton_2_2_clicked();
+    void on_wrongButton_2_3_clicked();
+    void on_wrongButton_2_4_clicked();
+    void on_wrongButton_2_5_clicked();
+    void on_wrongButton_2_6_clicked();
+
+    void on_pushButton_3_1_clicked();
+    void on_pushButton_3_2_clicked();
+    void on_pushButton_3_3_clicked();
+    void on_pushButton_3_4_clicked();
+    void on_pushButton_3_5_clicked();
+    void on_pushButton_3_6_clicked();
+    void on_wrongButton_3_1_clicked();
+    void on_wrongButton_3_2_clicked();
+    void on_wrongButton_3_3_clicked();
+    void on_wrongButton_3_4_clicked();
+    void on_wrongButton_3_5_clicked();
+    void on_wrongButton_3_6_clicked();
+
+    void on_pushButton_4_1_clicked();
+    void on_pushButton_4_2_clicked();
+    void on_pushButton_4_3_clicked();
+    void on_pushButton_4_4_clicked();
+    void on_pushButton_4_5_clicked();
+    void on_pushButton_4_6_clicked();
+    void on_wrongButton_4_1_clicked();
+    void on_wrongButton_4_2_clicked();
+    void on_wrongButton_4_3_clicked();
+    void on_wrongButton_4_4_clicked();
+    void on_wrongButton_4_5_clicked();
+    void on_wrongButton_4_6_clicked();
 private:
     Ui::MainWindow *ui;
 };

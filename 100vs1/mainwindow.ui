@@ -61,7 +61,7 @@
      <rect>
       <x>70</x>
       <y>90</y>
-      <width>641</width>
+      <width>631</width>
       <height>401</height>
      </rect>
     </property>
@@ -125,14 +125,14 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="simpleGame_2">
+    <widget class="QWidget" name="simpleGame">
      <attribute name="title">
       <string>Простая игра</string>
      </attribute>
      <widget class="QPushButton" name="pushButton_1_4">
       <property name="geometry">
        <rect>
-        <x>191</x>
+        <x>180</x>
         <y>200</y>
         <width>271</width>
         <height>31</height>
@@ -159,7 +159,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>182</x>
+        <x>171</x>
         <y>250</y>
         <width>291</width>
         <height>51</height>
@@ -193,7 +193,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>182</x>
+        <x>171</x>
         <y>190</y>
         <width>291</width>
         <height>51</height>
@@ -224,7 +224,7 @@
      <widget class="QPushButton" name="pushButton_1_1">
       <property name="geometry">
        <rect>
-        <x>190</x>
+        <x>179</x>
         <y>20</y>
         <width>271</width>
         <height>31</height>
@@ -251,7 +251,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>181</x>
+        <x>170</x>
         <y>10</y>
         <width>291</width>
         <height>51</height>
@@ -282,7 +282,7 @@
      <widget class="QPushButton" name="pushButton_1_5">
       <property name="geometry">
        <rect>
-        <x>191</x>
+        <x>180</x>
         <y>260</y>
         <width>271</width>
         <height>31</height>
@@ -309,7 +309,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>181</x>
+        <x>170</x>
         <y>70</y>
         <width>291</width>
         <height>51</height>
@@ -340,7 +340,7 @@
      <widget class="QPushButton" name="pushButton_1_6">
       <property name="geometry">
        <rect>
-        <x>191</x>
+        <x>180</x>
         <y>320</y>
         <width>271</width>
         <height>31</height>
@@ -367,7 +367,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>181</x>
+        <x>170</x>
         <y>130</y>
         <width>291</width>
         <height>51</height>
@@ -401,7 +401,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>182</x>
+        <x>171</x>
         <y>310</y>
         <width>291</width>
         <height>51</height>
@@ -432,7 +432,7 @@
      <widget class="QPushButton" name="pushButton_1_2">
       <property name="geometry">
        <rect>
-        <x>190</x>
+        <x>179</x>
         <y>80</y>
         <width>271</width>
         <height>31</height>
@@ -456,7 +456,7 @@
      <widget class="QPushButton" name="pushButton_1_3">
       <property name="geometry">
        <rect>
-        <x>190</x>
+        <x>179</x>
         <y>140</y>
         <width>271</width>
         <height>31</height>
@@ -483,7 +483,7 @@
       </property>
       <property name="geometry">
        <rect>
-        <x>70</x>
+        <x>59</x>
         <y>110</y>
         <width>81</width>
         <height>71</height>
@@ -520,7 +520,7 @@
      <widget class="QPushButton" name="wrongButton_1_2">
       <property name="geometry">
        <rect>
-        <x>70</x>
+        <x>59</x>
         <y>190</y>
         <width>81</width>
         <height>71</height>
@@ -554,7 +554,7 @@
      <widget class="QPushButton" name="wrongButton_1_3">
       <property name="geometry">
        <rect>
-        <x>70</x>
+        <x>59</x>
         <y>270</y>
         <width>81</width>
         <height>71</height>
@@ -588,7 +588,7 @@
      <widget class="QPushButton" name="wrongButton_1_4">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>489</x>
         <y>190</y>
         <width>81</width>
         <height>71</height>
@@ -622,7 +622,7 @@
      <widget class="QPushButton" name="wrongButton_1_5">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>489</x>
         <y>110</y>
         <width>81</width>
         <height>71</height>
@@ -656,7 +656,7 @@
      <widget class="QPushButton" name="wrongButton_1_6">
       <property name="geometry">
        <rect>
-        <x>500</x>
+        <x>489</x>
         <y>270</y>
         <width>81</width>
         <height>71</height>
@@ -706,7 +706,7 @@
      <zorder>wrongButton_1_5</zorder>
      <zorder>wrongButton_1_6</zorder>
     </widget>
-    <widget class="QWidget" name="dubleGame_2">
+    <widget class="QWidget" name="dubleGame">
      <property name="enabled">
       <bool>true</bool>
      </property>
@@ -719,10 +719,44 @@
      <attribute name="title">
       <string>Двойная игра</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton_95">
+     <widget class="QLabel" name="question_2_6">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
-        <x>101</x>
+        <x>172</x>
+        <y>310</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_4">
+      <property name="geometry">
+       <rect>
+        <x>181</x>
         <y>200</y>
         <width>271</width>
         <height>31</height>
@@ -743,214 +777,44 @@
        <string>4</string>
       </property>
      </widget>
-     <widget class="QLabel" name="question_10">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
+     <widget class="QPushButton" name="wrongButton_2_4">
       <property name="geometry">
        <rect>
-        <x>92</x>
-        <y>250</y>
-        <width>291</width>
-        <height>51</height>
+        <x>60</x>
+        <y>270</y>
+        <width>81</width>
+        <height>71</height>
        </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>251</width>
-        <height>31</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <property name="midLineWidth">
-       <number>1</number>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="question_11">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>92</x>
-        <y>190</y>
-        <width>291</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>251</width>
-        <height>31</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <property name="midLineWidth">
-       <number>1</number>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_45">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>20</y>
-        <width>271</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>231</width>
-        <height>21</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-       </font>
       </property>
       <property name="text">
-       <string>1</string>
+       <string/>
       </property>
-     </widget>
-     <widget class="QLabel" name="question_45">
-      <property name="enabled">
-       <bool>true</bool>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
       </property>
-      <property name="geometry">
-       <rect>
-        <x>91</x>
-        <y>10</y>
-        <width>291</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
+      <property name="iconSize">
        <size>
-        <width>251</width>
-        <height>31</height>
+        <width>81</width>
+        <height>71</height>
        </size>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="mouseTracking">
+      <property name="checkable">
        <bool>true</bool>
       </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <property name="midLineWidth">
-       <number>1</number>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_10">
-      <property name="geometry">
-       <rect>
-        <x>101</x>
-        <y>260</y>
-        <width>271</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>231</width>
-        <height>21</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>5</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="question_55">
-      <property name="enabled">
+      <property name="flat">
        <bool>true</bool>
       </property>
-      <property name="geometry">
-       <rect>
-        <x>91</x>
-        <y>70</y>
-        <width>291</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>251</width>
-        <height>31</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <property name="midLineWidth">
-       <number>1</number>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_11">
+     <widget class="QPushButton" name="pushButton_2_6">
       <property name="geometry">
        <rect>
-        <x>101</x>
+        <x>181</x>
         <y>320</y>
         <width>271</width>
         <height>31</height>
@@ -971,88 +835,10 @@
        <string>6</string>
       </property>
      </widget>
-     <widget class="QLabel" name="question_65">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
+     <widget class="QPushButton" name="pushButton_2_2">
       <property name="geometry">
        <rect>
-        <x>91</x>
-        <y>130</y>
-        <width>291</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>251</width>
-        <height>31</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <property name="midLineWidth">
-       <number>1</number>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="question_12">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>92</x>
-        <y>310</y>
-        <width>291</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="minimumSize">
-       <size>
-        <width>251</width>
-        <height>31</height>
-       </size>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>16</pointsize>
-       </font>
-      </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::Panel</enum>
-      </property>
-      <property name="lineWidth">
-       <number>2</number>
-      </property>
-      <property name="midLineWidth">
-       <number>1</number>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_55">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
+        <x>180</x>
         <y>80</y>
         <width>271</width>
         <height>31</height>
@@ -1073,10 +859,210 @@
        <string>2</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_12">
+     <widget class="QPushButton" name="wrongButton_2_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
-        <x>100</x>
+        <x>60</x>
+        <y>110</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_1">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>20</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_2_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>250</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_2_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>190</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_2_6">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>270</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_2_1">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>190</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_3">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
         <y>140</y>
         <width>271</width>
         <height>31</height>
@@ -1097,6 +1083,1380 @@
        <string>3</string>
       </property>
      </widget>
+     <widget class="QLabel" name="question_2_1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>10</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_2_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>130</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_2_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>190</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_2_3">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>110</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_2_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>70</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2_5">
+      <property name="geometry">
+       <rect>
+        <x>181</x>
+        <y>260</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <zorder>question_2_4</zorder>
+     <zorder>question_2_3</zorder>
+     <zorder>question_2_2</zorder>
+     <zorder>question_2_1</zorder>
+     <zorder>question_2_6</zorder>
+     <zorder>pushButton_2_4</zorder>
+     <zorder>wrongButton_2_4</zorder>
+     <zorder>pushButton_2_6</zorder>
+     <zorder>pushButton_2_2</zorder>
+     <zorder>wrongButton_2_5</zorder>
+     <zorder>pushButton_2_1</zorder>
+     <zorder>question_2_5</zorder>
+     <zorder>wrongButton_2_6</zorder>
+     <zorder>wrongButton_2_1</zorder>
+     <zorder>pushButton_2_3</zorder>
+     <zorder>wrongButton_2_2</zorder>
+     <zorder>wrongButton_2_3</zorder>
+     <zorder>pushButton_2_5</zorder>
+    </widget>
+    <widget class="QWidget" name="tripleGame">
+     <attribute name="title">
+      <string>Тройная игра</string>
+     </attribute>
+     <widget class="QLabel" name="question_3_6">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>310</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_4">
+      <property name="geometry">
+       <rect>
+        <x>181</x>
+        <y>200</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_3_4">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>270</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_6">
+      <property name="geometry">
+       <rect>
+        <x>181</x>
+        <y>320</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>80</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_3_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>110</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_1">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>20</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_3_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>250</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_3_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>172</x>
+        <y>190</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_3_6">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>270</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_3_1">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>190</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_3">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>140</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_3_1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>10</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_3_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>130</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_3_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>190</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_3_3">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>110</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_3_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>70</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3_5">
+      <property name="geometry">
+       <rect>
+        <x>181</x>
+        <y>260</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <zorder>question_3_4</zorder>
+     <zorder>question_3_3</zorder>
+     <zorder>question_3_1</zorder>
+     <zorder>question_3_2</zorder>
+     <zorder>question_3_6</zorder>
+     <zorder>pushButton_3_4</zorder>
+     <zorder>wrongButton_3_4</zorder>
+     <zorder>pushButton_3_6</zorder>
+     <zorder>pushButton_3_2</zorder>
+     <zorder>wrongButton_3_5</zorder>
+     <zorder>pushButton_3_1</zorder>
+     <zorder>question_3_5</zorder>
+     <zorder>wrongButton_3_6</zorder>
+     <zorder>wrongButton_3_1</zorder>
+     <zorder>pushButton_3_3</zorder>
+     <zorder>wrongButton_3_2</zorder>
+     <zorder>wrongButton_3_3</zorder>
+     <zorder>pushButton_3_5</zorder>
+    </widget>
+    <widget class="QWidget" name="reversGame">
+     <attribute name="title">
+      <string>Игра наоборот</string>
+     </attribute>
+     <widget class="QLabel" name="question_4_6">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>310</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_4">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>200</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_4_4">
+      <property name="geometry">
+       <rect>
+        <x>59</x>
+        <y>270</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_6">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>320</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>6</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_2">
+      <property name="geometry">
+       <rect>
+        <x>179</x>
+        <y>80</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_4_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>59</x>
+        <y>110</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_1">
+      <property name="geometry">
+       <rect>
+        <x>179</x>
+        <y>20</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_4_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>250</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_4_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>171</x>
+        <y>190</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_4_6">
+      <property name="geometry">
+       <rect>
+        <x>489</x>
+        <y>270</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_4_1">
+      <property name="geometry">
+       <rect>
+        <x>489</x>
+        <y>190</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_3">
+      <property name="geometry">
+       <rect>
+        <x>179</x>
+        <y>140</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_4_1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>10</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_4_3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>130</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_4_2">
+      <property name="geometry">
+       <rect>
+        <x>59</x>
+        <y>190</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="wrongButton_4_3">
+      <property name="geometry">
+       <rect>
+        <x>489</x>
+        <y>110</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/images/wrong_off.png</normaloff>
+        <normalon>:/images/wrong_on.png</normalon>
+        <disabledoff>:/images/wrong_off.png</disabledoff>
+        <activeoff>:/images/wrong_off.png</activeoff>
+        <activeon>:/images/wrong_on.png</activeon>
+        <selectedoff>:/images/wrong_off.png</selectedoff>:/images/wrong_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>81</width>
+        <height>71</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="question_4_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>70</y>
+        <width>291</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>251</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>1</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4_5">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>260</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>231</width>
+        <height>21</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </widget>
+     <zorder>question_4_4</zorder>
+     <zorder>question_4_1</zorder>
+     <zorder>question_4_2</zorder>
+     <zorder>question_4_3</zorder>
+     <zorder>question_4_6</zorder>
+     <zorder>pushButton_4_4</zorder>
+     <zorder>wrongButton_4_4</zorder>
+     <zorder>pushButton_4_6</zorder>
+     <zorder>pushButton_4_2</zorder>
+     <zorder>wrongButton_4_5</zorder>
+     <zorder>pushButton_4_1</zorder>
+     <zorder>question_4_5</zorder>
+     <zorder>wrongButton_4_6</zorder>
+     <zorder>wrongButton_4_1</zorder>
+     <zorder>pushButton_4_3</zorder>
+     <zorder>wrongButton_4_2</zorder>
+     <zorder>wrongButton_4_3</zorder>
+     <zorder>pushButton_4_5</zorder>
     </widget>
    </widget>
    <zorder>roundTable</zorder>
